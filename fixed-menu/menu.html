@@ -24,7 +24,7 @@
 <link data-turbolinks-track="true" href="./menu_files/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
 <script src="./menu_files/js" type="text/javascript"></script>
 <script src="./menu_files/infobubble-compiled.js.download" type="text/javascript"></script>
-
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 <link data-turbolinks-track="true" href="./menu_files/new_application-4c8b48206ed6d1549f57da27ddd882fb.css" media="all" rel="stylesheet" type="text/css">
 <script data-turbolinks-track="true" src="./menu_files/application-81faf351dbf23a45adb459a913b00285.js.download" type="text/javascript"></script><script type="text/javascript" charset="UTF-8" src="./menu_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./menu_files/util.js.download"></script><script type="text/javascript" charset="UTF-8" src="./menu_files/stats.js.download"></script>
@@ -4203,7 +4203,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01" class=""><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide02" class=""><button type="button" data-role="none" role="button" tabindex="0">3</button></li></ul></div>
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197"> 
+<!--<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197"> -->
+<nav class="navbar navbar-inverse"> 
 <div class="nav_wrapper">
 <div class="container">
 <div class="row">
@@ -4255,6 +4256,108 @@
 </div>
 </div>
 </nav>
+
+
+<!--//////////////////////////updated fixed menu ////////////////////////////////-->
+
+<div class="header fixed-header" style="display: none;" data-spy="affix" data-offset-top="0">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-lg-3">
+<div class="logo updated-fixed-logo">
+<a href="http://stn.com.ru/" style="float: left;"><img alt="logo" class="logo__image" src="./menu_files/logo2-18470f6e1d82f40e1794b7dc29aca98b.png" style="width: 90px;">
+</a><div class="logo__phone">
+(8552) 77-80-44
+</div>
+</div>
+</div>
+<div class="col-md-5 col-lg-5 header__center">
+<div class="row">
+<div class="col-xs-12">
+<div class="search">
+<form accept-charset="UTF-8" action="http://stn.com.ru/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"></div>
+<input class="search__input" id="q" name="q" placeholder="Поиск по сайту" value="" type="search">
+</form>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="col-md-4 col-lg-4 header-right-fixed">
+<div class="header__auth">
+<div class="header__buttons">
+
+
+<button class="btn btn-primary header__callback" role="callback-link" type="button">Заказать обратный звонок</button>
+<a class="header__button-item" href="http://stn.com.ru/#">
+<i class="fa fa-user"></i>
+</a>
+<div class="header__button-item header__button-item--dropdown">
+<a aria-expanded="false" aria-haspopup="true" href="http://stn.com.ru/#!">
+<i class="fa fa-shopping-cart"></i>
+</a>
+<div aria-labelledby="dLabel" class="dropdown-menu header-cart">
+<div class="header-cart__empty header-cart__empty--visible">
+<i class="fa fa-shopping-cart"></i>
+Ваша корзина пуста
+</div>
+<div class="header-cart__actions">
+<a href="http://stn.com.ru/cart" class="btn btn-primary btn-block btn-primary--border">Открыть корзину</a>
+<a href="http://stn.com.ru/cart?id=order_data" class="btn btn-primary btn-block">Оформить покупку</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<style>
+.header.fixed-header{
+background-color: #0078bc;
+
+padding: 10px 0 4px;
+
+}
+.updated-fixed-logo img{
+
+width:70px !important;
+margin-right:10px;
+}
+
+.updated-fixed-logo .logo__phone {
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+
+.header-right-fixed button.header__callback{
+font-size: 12px;
+margin-bottom: 1px;
+width: 67%;
+
+}
+.header-right-fixed .header__auth {
+  display: unset;
+
+}
+.header-right-fixed a.header__button-item{
+margin: 0 9px;
+
+}
+
+.header-right-fixed .header__button-item{
+margin-right: 0;
+
+}
+</style>
 <style>
   .affix {
       top: 0px;
@@ -4266,6 +4369,18 @@
 	top:0px;
   }
   </style>
+<!--//////////////////////////updated fixed menu ends ////////////////////////////////-->
+
+
+
+
+
+
+
+
+
+
+
 <div class="wrapper">
 <div class="main-category">
 <div class="container">
@@ -4616,4 +4731,19 @@ _shcp = []; _shcp.push({widget_id : 611732, widget : "Chat"}); (function() { var
 </div>
 </form>
 
-</div></div><div id="sh_button" class="shc sh_btn sh_btn_bottom sh_btn_bottom_right"><img rel="logo" style="margin: 6px;" class="shc sh_logo_btn sh_logo_img" src="./menu_files/logo.png"><div class="shc sh_title_text" rel="title">Помощь онлайн</div><div class="shc sh_block_counter" title="Visitors to the site"><span rel="counter">0</span></div></div><iframe src="./menu_files/a.html" scrolling="no" frameborder="0" style="position:absolute;width:0;height:0;left:-14444;"></iframe></body></html>
+</div></div><div id="sh_button" class="shc sh_btn sh_btn_bottom sh_btn_bottom_right"><img rel="logo" style="margin: 6px;" class="shc sh_logo_btn sh_logo_img" src="./menu_files/logo.png"><div class="shc sh_title_text" rel="title">Помощь онлайн</div><div class="shc sh_block_counter" title="Visitors to the site"><span rel="counter">0</span></div></div><iframe src="./menu_files/a.html" scrolling="no" frameborder="0" style="position:absolute;width:0;height:0;left:-14444;"></iframe>
+<script type="text/javascript">
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 470) { //use `this`, not `document`
+        $('.fixed-header').css({
+            'display': 'block'
+        });
+    }
+    if ($(this).scrollTop() < 470) { //use `this`, not `document`
+        $('.fixed-header').css({
+            'display': 'none'
+        });
+    }
+});
+</script>
+</body></html>
